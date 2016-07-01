@@ -295,6 +295,8 @@ float home_offset[3] = { 0 };
 float sw_endstop_min[3] = { X_MIN_POS, Y_MIN_POS, Z_MIN_POS };
 float sw_endstop_max[3] = { X_MAX_POS, Y_MAX_POS, Z_MAX_POS };
 
+float base_z_adjust = 0.0;
+
 #if FAN_COUNT > 0
   int fanSpeeds[FAN_COUNT] = { 0 };
 #endif
@@ -1198,6 +1200,7 @@ DEFINE_PGM_READ_ANY(signed char, byte);
   static inline type array(int axis)          \
   { return pgm_read_any(&array##_P[axis]); }
 
+
 XYZ_CONSTS_FROM_CONFIG(float, base_min_pos,   MIN_POS);
 XYZ_CONSTS_FROM_CONFIG(float, base_max_pos,   MAX_POS);
 XYZ_CONSTS_FROM_CONFIG(float, base_home_pos,  HOME_POS);
@@ -1352,6 +1355,7 @@ static void set_axis_is_at_home(AxisEnum axis) {
   #endif
   {
     current_position[axis] = base_home_pos(axis) + home_offset[axis];
+	current_position[Z_AXIS]+= base_z_adjust;
     update_software_endstops(axis);
 
     #if ENABLED(AUTO_BED_LEVELING_FEATURE) && Z_HOME_DIR < 0

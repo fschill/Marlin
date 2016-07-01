@@ -1623,16 +1623,18 @@ static void lcd_control_temperature_preheat_abs_settings_menu() {
  * "Control" > "Motion" submenu
  *
  */
-static void lcd_control_motion_menu() {
+ 
+ static void lcd_control_motion_menu() {
   START_MENU();
   MENU_ITEM(back, MSG_CONTROL);
   #if ENABLED(AUTO_BED_LEVELING_FEATURE)
     MENU_ITEM_EDIT(float32, MSG_ZPROBE_ZOFFSET, &zprobe_zoffset, Z_PROBE_OFFSET_RANGE_MIN, Z_PROBE_OFFSET_RANGE_MAX);
   #endif
   // Manual bed leveling, Bed Z:
-  #if ENABLED(MANUAL_BED_LEVELING)
-    MENU_ITEM_EDIT(float43, MSG_BED_Z, &mbl.z_offset, -1, 1);
-  #endif
+  //#if ENABLED(MANUAL_BED_LEVELING)
+    //MENU_ITEM_EDIT(float43, MSG_BED_Z, &mbl.z_offset, -1, 1);
+	MENU_ITEM_EDIT(float43, MSG_BED_Z, &base_z_adjust, -1, 1);
+  //#endif
   MENU_ITEM_EDIT(float5, MSG_ACC, &acceleration, 10, 99000);
   MENU_ITEM_EDIT(float3, MSG_VXY_JERK, &max_xy_jerk, 1, 990);
   #if ENABLED(DELTA)

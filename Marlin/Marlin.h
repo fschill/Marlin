@@ -276,6 +276,7 @@ extern float current_position[NUM_AXIS];
 extern float home_offset[3]; // axis[n].home_offset
 extern float sw_endstop_min[3]; // axis[n].sw_endstop_min
 extern float sw_endstop_max[3]; // axis[n].sw_endstop_max
+extern float base_z_adjust;
 extern bool axis_known_position[3]; // axis[n].is_known
 extern bool axis_homed[3]; // axis[n].is_homed
 
