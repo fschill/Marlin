@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="marlin" InternalType="Console">
+  <VirtualDirectory Name="Marlin">
+    <VirtualDirectory Name="scripts">
+      <File Name="Marlin/scripts/mfnew"/>
+      <File Name="Marlin/scripts/firstpush"/>
+      <File Name="Marlin/scripts/mfrb"/>
+      <File Name="Marlin/scripts/mfup"/>
+      <File Name="Marlin/scripts/mfinfo"/>
+      <File Name="Marlin/scripts/mfpr"/>
+      <File Name="Marlin/scripts/mfprune"/>
+    </VirtualDirectory>
+    <File Name="Marlin/dogm_font_data_Marlin_symbols.h"/>
+    <File Name="Marlin/pins_GEN3_MONOLITHIC.h"/>
+    <File Name="Marlin/pins_SAV_MKI.h"/>
+    <File Name="Marlin/pins_ULTIMAIN_2.h"/>
+    <File Name="Marlin/language_pt_utf8.h"/>
+    <File Name="Marlin/dogm_font_data_6x9_marlin.h"/>
+    <File Name="Marlin/SdFatUtil.h"/>
+    <File Name="Marlin/watchdog.h"/>
+    <File Name="Marlin/SanityCheck.h"/>
+    <File Name="Marlin/stepper.cpp"/>
+    <File Name="Marlin/pins_OMCA.h"/>
+    <File Name="Marlin/pins_PRINTRBOARD.h"/>
+    <File Name="Marlin/Sd2PinMap.h"/>
+    <File Name="Marlin/language_an.h"/>
+    <File Name="Marlin/temperature.cpp"/>
+    <File Name="Marlin/language_es.h"/>
+    <File Name="Marlin/language_pt.h"/>
+    <File Name="Marlin/pins_MEGACONTROLLER.h"/>
+    <File Name="Marlin/dac_mcp4728.cpp"/>
+    <File Name="Marlin/mesh_bed_leveling.h"/>
+    <File Name="Marlin/fastio.h"/>
+    <File Name="Marlin/pins_RAMBO.h"/>
+    <File Name="Marlin/pins_BQ_ZUM_MEGA_3D.h"/>
+    <File Name="Marlin/pins_GEN6.h"/>
+    <File Name="Marlin/pins_ULTIMAKER.h"/>
+    <File Name="Marlin/SdFatUtil.cpp"/>
+    <File Name="Marlin/pins_TEENSYLU.h"/>
+    <File Name="Marlin/SdVolume.cpp"/>
+    <File Name="Marlin/pins_GEN3_PLUS.h"/>
+    <File Name="Marlin/pins_99.h"/>
+    <File Name="Marlin/language_kana_utf8.h"/>
+    <File Name="Marlin/speed_lookuptable.h"/>
+    <File Name="Marlin/language_bg.h"/>
+    <File Name="Marlin/blinkm.cpp"/>
+    <File Name="Marlin/Version.h"/>
+    <File Name="Marlin/language_fi.h"/>
+    <File Name="Marlin/SdFile.h"/>
+    <File Name="Marlin/Sd2Card.h"/>
+    <File Name="Marlin/dogm_bitmaps.h"/>
+    <File Name="Marlin/twibus.h"/>
+    <File Name="Marlin/pins_RAMPS_14.h"/>
+    <File Name="Marlin/twibus.cpp"/>
+    <File Name="Marlin/pins_RAMPS_13_EFB.h"/>
+    <File Name="Marlin/dogm_font_data_HD44780_C.h"/>
+    <File Name="Marlin/temperature.h"/>
+    <File Name="Marlin/ultralcd.h"/>
+    <File Name="Marlin/digipot_mcp4451.cpp"/>
+    <File Name="Marlin/language_da.h"/>
+    <File Name="Marlin/SdBaseFile.h"/>
+    <File Name="Marlin/SdFatStructs.h"/>
+    <File Name="Marlin/pins_SAINSMART_2IN1.h"/>
+    <File Name="Marlin/dogm_font_data_ISO10646_1.h"/>
+    <File Name="Marlin/pins_RAMPS_14_EFB.h"/>
+    <File Name="Marlin/language_cz.h"/>
+    <File Name="Marlin/language_eu.h"/>
+    <File Name="Marlin/pins_BAM_DICE_DUE.h"/>
+    <File Name="Marlin/pins_MEGATRONICS.h"/>
+    <File Name="Marlin/pins_K8200.h"/>
+    <File Name="Marlin/Marlin.h"/>
+    <File Name="Marlin/SdFile.cpp"/>
+    <File Name="Marlin/pins_ELEFU_3.h"/>
+    <File Name="Marlin/blinkm.h"/>
+    <File Name="Marlin/dogm_font_data_HD44780_W.h"/>
+    <File Name="Marlin/pins_AZTEEG_X1.h"/>
+    <File Name="Marlin/language_it.h"/>
+    <File Name="Marlin/planner.cpp"/>
+    <File Name="Marlin/pins_TEENSY2.h"/>
+    <File Name="Marlin/pins_MELZI.h"/>
+    <File Name="Marlin/Marlin_main.cpp"/>
+    <File Name="Marlin/language_de.h"/>
+    <File Name="Marlin/language.h"/>
+    <File Name="Marlin/stopwatch.cpp"/>
+    <File Name="Marlin/language_fr.h"/>
+    <File Name="Marlin/pins_MEGATRONICS_3.h"/>
+    <File Name="Marlin/language_pt-br.h"/>
+    <File Name="Marlin/language_nl.h"/>
+    <File Name="Marlin/servo.h"/>
+    <File Name="Marlin/SdVolume.h"/>
+    <File Name="Marlin/language_test.h"/>
+    <File Name="Marlin/configuration_store.h"/>
+    <File Name="Marlin/pins_PRINTRBOARD_REVF.h"/>
+    <File Name="Marlin/language_pl.h"/>
+    <File Name="Marlin/pins_A4JP.h"/>
+    <File Name="Marlin/pins_SANGUINOLOLU_12.h"/>
+    <File Name="Marlin/stepper_indirection.h"/>
+    <File Name="Marlin/pins_MINITRONICS.h"/>
+    <File Name="Marlin/pins_GEN7_14.h"/>
+    <File Name="Marlin/SdInfo.h"/>
+    <File Name="Marlin/pins_FELIX2.h"/>
+    <File Name="Marlin/pins_RAMPS_13.h"/>
+    <File Name="Marlin/pins_RIGIDBOARD.h"/>
+    <File Name="Marlin/language_ru.h"/>
+    <File Name="Marlin/Conditionals.h"/>
+    <File Name="Marlin/MarlinSerial.cpp"/>
+    <File Name="Marlin/pins_BRAINWAVE_PRO.h"/>
+    <File Name="Marlin/pins_GEN7_12.h"/>
+    <File Name="Marlin/ultralcd.cpp"/>
+    <File Name="Marlin/utf_mapper.h"/>
+    <File Name="Marlin/Makefile"/>
+    <File Name="Marlin/pins_SANGUINOLOLU_11.h"/>
+    <File Name="Marlin/language_gl.h"/>
+    <File Name="Marlin/dogm_font_data_ISO10646_5_Cyrillic.h"/>
+    <File Name="Marlin/stepper_indirection.cpp"/>
+    <File Name="Marlin/M100_Free_Mem_Chk.cpp"/>
+    <File Name="Marlin/buzzer.cpp"/>
+    <File Name="Marlin/MarlinSerial.h"/>
+    <File Name="Marlin/macros.h"/>
+    <File Name="Marlin/language_kana.h"/>
+    <File Name="Marlin/pins_MEGATRONICS_2.h"/>
+    <File Name="Marlin/pins_MKS_BASE.h"/>
+    <File Name="Marlin/ultralcd_implementation_hitachi_HD44780.h"/>
+    <File Name="Marlin/pins_ULTIMAKER_OLD.h"/>
+    <File Name="Marlin/pins_MELZI_MAKR3D.h"/>
+    <File Name="Marlin/pins_GEN6_DELUXE.h"/>
+    <File Name="Marlin/mesh_bed_leveling.cpp"/>
+    <File Name="Marlin/Configuration.h"/>
+    <File Name="Marlin/pins_AZTEEG_X3_PRO.h"/>
+    <File Name="Marlin/language_ca.h"/>
+    <File Name="Marlin/language_pt-br_utf8.h"/>
+    <File Name="Marlin/dogm_lcd_implementation.h"/>
+    <File Name="Marlin/thermistortables.h"/>
+    <File Name="Marlin/pins_STB_11.h"/>
+    <File Name="Marlin/boards.h"/>
+    <File Name="Marlin/dogm_font_data_ISO10646_Kana.h"/>
+    <File Name="Marlin/pins_OMCA_A.h"/>
+    <File Name="Marlin/pins_CHEAPTRONIC.h"/>
+    <File Name="Marlin/dogm_font_data_ISO10646_CN.h"/>
+    <File Name="Marlin/pins_SETHI.h"/>
+    <File Name="Marlin/pins_BRAINWAVE.h"/>
+    <File Name="Marlin/SdFatConfig.h"/>
+    <File Name="Marlin/pins_RUMBA.h"/>
+    <File Name="Marlin/planner.h"/>
+    <File Name="Marlin/pins.h"/>
+    <File Name="Marlin/pins_GEN7_13.h"/>
+    <File Name="Marlin/qr_solve.cpp"/>
+    <File Name="Marlin/buzzer.h"/>
+    <File Name="Marlin/dogm_font_data_HD44780_J.h"/>
+    <File Name="Marlin/ultralcd_st7920_u8glib_rrd.h"/>
+    <File Name="Marlin/Sd2Card.cpp"/>
+    <File Name="Marlin/pins_3DRAG.h"/>
+    <File Name="Marlin/pins_5DPRINT.h"/>
+    <File Name="Marlin/dac_mcp4728.h"/>
+    <File Name="Marlin/stepper_dac.cpp"/>
+    <File Name="Marlin/watchdog.cpp"/>
+    <File Name="Marlin/pins_MKS_13.h"/>
+    <File Name="Marlin/configuration_store.cpp"/>
+    <File Name="Marlin/stepper_dac.h"/>
+    <File Name="Marlin/servo.cpp"/>
+    <File Name="Marlin/pins_RAMPS_OLD.h"/>
+    <File Name="Marlin/pins_AZTEEG_X3.h"/>
+    <File Name="Marlin/Configuration_adv.h"/>
+    <File Name="Marlin/qr_solve.h"/>
+    <File Name="Marlin/vector_3.cpp"/>
+    <File Name="Marlin/language_en.h"/>
+    <File Name="Marlin/stopwatch.h"/>
+    <File Name="Marlin/pins_GEN7_CUSTOM.h"/>
+    <File Name="Marlin/pins_LEAPFROG.h"/>
+    <File Name="Marlin/stepper.h"/>
+    <File Name="Marlin/cardreader.h"/>
+    <File Name="Marlin/language_cn.h"/>
+    <File Name="Marlin/SdBaseFile.cpp"/>
+    <File Name="Marlin/pins_MINIRAMBO.h"/>
+    <File Name="Marlin/cardreader.cpp"/>
+    <File Name="Marlin/vector_3.h"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+        <Preprocessor Value="NDEBUG"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
